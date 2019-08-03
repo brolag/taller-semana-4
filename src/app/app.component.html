@@ -1,0 +1,5 @@
+<h1>Car List</h1>
+
+<div class="container">
+  <app-car *ngFor="let car of cars" [car]="car" (deletedCar)="deleteCar($event)" (soldCar)="sellCar($event)" ></app-car>
+</div>

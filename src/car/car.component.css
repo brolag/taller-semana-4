@@ -1,0 +1,43 @@
+.car {
+  border: 2px solid black;
+  margin: 3px;
+  padding: 10px;
+  min-width: 200px;
+  display: flex;
+  flex-flow: column;
+}
+
+.button-container {
+  display:flex;
+  flex-direction: row;
+}
+
+button.delete, button.sell {
+  border: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background: red;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  width: 80px;
+  font-size: 9px;
+  cursor: pointer;
+}
+
+button.delete {
+  background: red;
+}
+
+button.sell {
+  background: green;
+}
+
+p {
+  border-bottom: 1px solid grey;
+  padding-bottom: 2px;
+}
+
+.sold-car {
+  background: lightgreen;
+}

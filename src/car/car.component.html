@@ -1,0 +1,10 @@
+  <div class="car" [ngClass]="{'sold-car' : car.sold}">
+    <p><strong>Marca:</strong> {{car.marca}}</p>
+    <p><strong>Modelo:</strong> {{car.modelo}}</p>
+    <p><strong>Año:</strong> {{car.ano}}</p>
+    <div class="button-container">
+      <button class="delete" (click)="deleteCar(car.id)">Borrar</button>
+      <button class="sell" (click)="sellCar(car.id)">Vender</button>
+    </div>
+  </div>
+
